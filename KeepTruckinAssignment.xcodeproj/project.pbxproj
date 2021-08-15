@@ -23,6 +23,11 @@
 		4D47648226C7FA600065238D /* SearchResponseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D47648126C7FA600065238D /* SearchResponseResult.swift */; };
 		4D47648726C7FFA90065238D /* GeoNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D47648626C7FFA90065238D /* GeoNames.swift */; };
 		4D47649026C801FE0065238D /* PageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D47648F26C801FE0065238D /* PageViewModel.swift */; };
+		4D6F11DA26C975AA0064D10B /* XCTestCase+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F11D926C975AA0064D10B /* XCTestCase+JSON.swift */; };
+		4D6F11E226C975CD0064D10B /* SearchResult.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F11E126C975CD0064D10B /* SearchResult.json */; };
+		4D6F11EB26C9761B0064D10B /* SearchResultsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F11EA26C9761B0064D10B /* SearchResultsTest.swift */; };
+		4D6F11F326C976BD0064D10B /* GeoNamesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F11F226C976BD0064D10B /* GeoNamesTest.swift */; };
+		4D6F11FB26C977780064D10B /* GeoNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F11FA26C977780064D10B /* GeoNames.json */; };
 		4DB857E826C807D1005D9E4B /* ViewSearchResultLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB857E626C807D1005D9E4B /* ViewSearchResultLayout.swift */; };
 		4DB857E926C807D1005D9E4B /* ViewSearchResultLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB857E726C807D1005D9E4B /* ViewSearchResultLayout.xib */; };
 		4DB857F126C808C6005D9E4B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB857F026C808C6005D9E4B /* SearchResultViewModel.swift */; };
@@ -73,6 +78,11 @@
 		4D47648126C7FA600065238D /* SearchResponseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseResult.swift; sourceTree = "<group>"; };
 		4D47648626C7FFA90065238D /* GeoNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoNames.swift; sourceTree = "<group>"; };
 		4D47648F26C801FE0065238D /* PageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewModel.swift; sourceTree = "<group>"; };
+		4D6F11D926C975AA0064D10B /* XCTestCase+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSON.swift"; sourceTree = "<group>"; };
+		4D6F11E126C975CD0064D10B /* SearchResult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchResult.json; sourceTree = "<group>"; };
+		4D6F11EA26C9761B0064D10B /* SearchResultsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTest.swift; sourceTree = "<group>"; };
+		4D6F11F226C976BD0064D10B /* GeoNamesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoNamesTest.swift; sourceTree = "<group>"; };
+		4D6F11FA26C977780064D10B /* GeoNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeoNames.json; sourceTree = "<group>"; };
 		4DB857E626C807D1005D9E4B /* ViewSearchResultLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSearchResultLayout.swift; sourceTree = "<group>"; };
 		4DB857E726C807D1005D9E4B /* ViewSearchResultLayout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewSearchResultLayout.xib; sourceTree = "<group>"; };
 		4DB857F026C808C6005D9E4B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
@@ -163,8 +173,11 @@
 		4D4763F426C7EEDC0065238D /* KeepTruckinAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				4D6F120326C978440064D10B /* Utils */,
+				4D6F120226C978330064D10B /* MockData */,
 				4D4763F526C7EEDC0065238D /* KeepTruckinAssignmentTests.swift */,
 				4D4763F726C7EEDC0065238D /* Info.plist */,
+				4D6F11E926C9760C0064D10B /* Models */,
 			);
 			path = KeepTruckinAssignmentTests;
 			sourceTree = "<group>";
@@ -213,6 +226,32 @@
 				4D4763E226C7EEDB0065238D /* SearchViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D6F11E926C9760C0064D10B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F11EA26C9761B0064D10B /* SearchResultsTest.swift */,
+				4D6F11F226C976BD0064D10B /* GeoNamesTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D6F120226C978330064D10B /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F11FA26C977780064D10B /* GeoNames.json */,
+				4D6F11E126C975CD0064D10B /* SearchResult.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		4D6F120326C978440064D10B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F11D926C975AA0064D10B /* XCTestCase+JSON.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4DB857E526C807A7005D9E4B /* View */ = {
@@ -363,6 +402,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6F11FB26C977780064D10B /* GeoNames.json in Resources */,
+				4D6F11E226C975CD0064D10B /* SearchResult.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +485,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6F11F326C976BD0064D10B /* GeoNamesTest.swift in Sources */,
 				4D4763F626C7EEDC0065238D /* KeepTruckinAssignmentTests.swift in Sources */,
+				4D6F11DA26C975AA0064D10B /* XCTestCase+JSON.swift in Sources */,
+				4D6F11EB26C9761B0064D10B /* SearchResultsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

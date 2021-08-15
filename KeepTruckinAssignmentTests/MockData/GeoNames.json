@@ -1,0 +1,42 @@
+[
+   {
+      "adminCode1":"25",
+      "lng":"80.27847",
+      "geonameId":1264527,
+      "toponymName":"Chennai",
+      "countryId":"1269750",
+      "fcl":"P",
+      "population":4328063,
+      "countryCode":"IN",
+      "name":"Chennai",
+      "fclName":"city, village,...",
+      "adminCodes1":{
+         "ISO3166_2":"TN"
+      },
+      "countryName":"India",
+      "fcodeName":"seat of a first-order administrative division",
+      "adminName1":"Tamil Nadu",
+      "lat":"13.08784",
+      "fcode":"PPLA"
+   },
+   {
+      "adminCode1":"25",
+      "lng":"80.26483",
+      "geonameId":7646145,
+      "toponymName":"Chennai",
+      "countryId":"1269750",
+      "fcl":"A",
+      "population":4646732,
+      "countryCode":"IN",
+      "name":"Chennai district",
+      "fclName":"country, state, region,...",
+      "adminCodes1":{
+         "ISO3166_2":"TN"
+      },
+      "countryName":"India",
+      "fcodeName":"second-order administrative division",
+      "adminName1":"Tamil Nadu",
+      "lat":"13.08891",
+      "fcode":"ADM2"
+   }
+]

@@ -1,0 +1,165 @@
+{
+  "totalResultsCount": 8,
+  "geonames": [
+    {
+      "adminCode1": "25",
+      "lng": "80.27847",
+      "geonameId": 1264527,
+      "toponymName": "Chennai",
+      "countryId": "1269750",
+      "fcl": "P",
+      "population": 4328063,
+      "countryCode": "IN",
+      "name": "Chennai",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "seat of a first-order administrative division",
+      "adminName1": "Tamil Nadu",
+      "lat": "13.08784",
+      "fcode": "PPLA"
+    },
+    {
+      "adminCode1": "25",
+      "lng": "80.26483",
+      "geonameId": 7646145,
+      "toponymName": "Chennai",
+      "countryId": "1269750",
+      "fcl": "A",
+      "population": 4646732,
+      "countryCode": "IN",
+      "name": "Chennai district",
+      "fclName": "country, state, region,...",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "second-order administrative division",
+      "adminName1": "Tamil Nadu",
+      "lat": "13.08891",
+      "fcode": "ADM2"
+    },
+    {
+      "adminCode1": "25",
+      "lng": "80.2899",
+      "geonameId": 11101740,
+      "toponymName": "Chennai Port",
+      "countryId": "1269750",
+      "fcl": "L",
+      "population": 0,
+      "countryCode": "IN",
+      "name": "Chennai Port",
+      "fclName": "parks,area, ...",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "port",
+      "adminName1": "Tamil Nadu",
+      "lat": "13.0844",
+      "fcode": "PRT"
+    },
+    {
+      "adminCode1": "25",
+      "lng": "80.29444",
+      "geonameId": 1276640,
+      "toponymName": "Chennai Beach",
+      "countryId": "1269750",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "IN",
+      "name": "Chennai Beach",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "railroad station",
+      "adminName1": "Tamil Nadu",
+      "lat": "13.0925",
+      "fcode": "RSTN"
+    },
+    {
+      "adminCode1": "25",
+      "lng": "80.16578",
+      "geonameId": 6301127,
+      "toponymName": "Chennai International Airport",
+      "countryId": "1269750",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "IN",
+      "name": "Chennai International Airport",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "airport",
+      "adminName1": "Tamil Nadu",
+      "lat": "12.98833",
+      "fcode": "AIRP"
+    },
+    {
+      "adminCode1": "25",
+      "lng": "80.26417",
+      "geonameId": 1272102,
+      "toponymName": "Chennai Egmore Railway Station",
+      "countryId": "1269750",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "IN",
+      "name": "Chennai Egmore Railway Station",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "railroad station",
+      "adminName1": "Tamil Nadu",
+      "lat": "13.07694",
+      "fcode": "RSTN"
+    },
+    {
+      "adminCode1": "19",
+      "lng": "76.10655",
+      "geonameId": 10896363,
+      "toponymName": "Chennaikan Koppal",
+      "countryId": "1269750",
+      "fcl": "P",
+      "population": 0,
+      "countryCode": "IN",
+      "name": "Chennaikan Koppal",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "KA"
+      },
+      "countryName": "India",
+      "fcodeName": "populated place",
+      "adminName1": "Karnataka",
+      "lat": "12.46944",
+      "fcode": "PPL"
+    },
+    {
+      "adminCode1": "25",
+      "lng": "78.75644",
+      "geonameId": 7648915,
+      "toponymName": "Chennai Medical College and Research Center",
+      "countryId": "1269750",
+      "fcl": "S",
+      "population": 0,
+      "countryCode": "IN",
+      "name": "Chennai Medical College and Research Center",
+      "fclName": "spot, building, farm",
+      "adminCodes1": {
+        "ISO3166_2": "TN"
+      },
+      "countryName": "India",
+      "fcodeName": "hospital",
+      "adminName1": "Tamil Nadu",
+      "lat": "10.954",
+      "fcode": "HSP"
+    }
+  ]
+}
