@@ -19,3 +19,17 @@ iPad             |  iPhone
 iPad             |  iPhone
 :-------------------------:|:-------------------------:
 ![](https://github.com/deepakraj27/KeepTruckingAssignment/blob/main/ScreenShots/Simulator%20Screen%20Shot%20-%20iPad%20(8th%20generation)%20-%202021-08-15%20at%2022.15.35.png)  |  ![](https://github.com/deepakraj27/KeepTruckingAssignment/blob/main/ScreenShots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-08-15%20at%2022.16.11.png)
+  
+  
+## Test Cases
+  
+  Added Test Cases for all Models and got a chance to start test cases for Tableview as well.
+  
+  ### Models Test Cases
+  
+  SearchResults Model             |  GeoNames Model
+:-------------------------:|:-------------------------:
+![](https://github.com/deepakraj27/KeepTruckingAssignment/blob/main/ScreenShots/Screenshot%202021-08-15%20at%2010.57.54%20PM.png)  |  ![](https://github.com/deepakraj27/KeepTruckingAssignment/blob/main/ScreenShots/Screenshot%202021-08-15%20at%2010.58.13%20PM.png)
+  
+  ### TableView Test Cases
+  ![](https://github.com/deepakraj27/KeepTruckingAssignment/blob/main/ScreenShots/Screenshot%202021-08-15%20at%2010.57.40%20PM.png)  
