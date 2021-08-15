@@ -9,7 +9,7 @@ import Foundation
 @testable import KeepTruckinAssignment
 import XCTest
 
-class SongsTests: XCTestCase {
+class GeoNamesTest: XCTestCase {
   
   var sut: [GeoNames]!
   
