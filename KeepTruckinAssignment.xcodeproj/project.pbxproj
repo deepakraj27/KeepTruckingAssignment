@@ -33,6 +33,7 @@
 		4DB857F126C808C6005D9E4B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB857F026C808C6005D9E4B /* SearchResultViewModel.swift */; };
 		4DB857F826C809A3005D9E4B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB857F726C809A3005D9E4B /* Helper.swift */; };
 		4DB8580326C80E02005D9E4B /* ClassNameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8580226C80E02005D9E4B /* ClassNameProtocol.swift */; };
+		4DC0B44826C980CF003C9668 /* SearchViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0B44726C980CF003C9668 /* SearchViewControllerTest.swift */; };
 		6B2D4C389C69D4F3D63F4ED3 /* Pods_KeepTruckinAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F580C27310B3C56885994 /* Pods_KeepTruckinAssignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		4DB857F026C808C6005D9E4B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		4DB857F726C809A3005D9E4B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4DB8580226C80E02005D9E4B /* ClassNameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNameProtocol.swift; sourceTree = "<group>"; };
+		4DC0B44726C980CF003C9668 /* SearchViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTest.swift; sourceTree = "<group>"; };
 		C58F580C27310B3C56885994 /* Pods_KeepTruckinAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepTruckinAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 			children = (
 				4D22D88C26C97BE700814F25 /* GeoNamesTest.swift */,
 				4D22D88D26C97BE700814F25 /* SearchResultsTest.swift */,
+				4DC0B44726C980CF003C9668 /* SearchViewControllerTest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				4D4763F626C7EEDC0065238D /* KeepTruckinAssignmentTests.swift in Sources */,
 				4D22D89426C97BE700814F25 /* SearchResultsTest.swift in Sources */,
 				4D22D89526C97BE700814F25 /* XCTestCase+JSON.swift in Sources */,
+				4DC0B44826C980CF003C9668 /* SearchViewControllerTest.swift in Sources */,
 				4D22D89326C97BE700814F25 /* GeoNamesTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
